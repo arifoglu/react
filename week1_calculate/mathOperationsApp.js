@@ -1,3 +1,5 @@
+// calculator functions were imported and pressed to console
+
 const calculator = require("./mathOperations");
 
 

@@ -1,3 +1,7 @@
+// math operations were designed with some functions
+// 4 arithmetic operations was done
+// functions was exported 
+
 const addition = (pnumber1,pnumber2)=>{
     return pnumber1 + pnumber2 ;
 };
