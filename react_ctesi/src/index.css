@@ -11,20 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-#mainCards{
-  display: flex;
-  float: left;
-};
-
-#navbar{
-  text-decoration: none;
-  display: flex;
-  justify-content: space-around;
-
-  
-};
-
-#foot{
-  background-color: blueviolet;
-}

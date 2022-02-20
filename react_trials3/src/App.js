@@ -1,17 +1,17 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Buttons from './components/Button';
-import Numeros from './components/Card';
+import Header from './components/Header';
+import Cards from './components/Cards';
+import Footer from './components/Footer';
 
 
 
 function App() {
   return (
-    <div>
-      
-      <Buttons />
-      <Numeros />
-  
+    <div className="App">
+      <Header />
+      <Cards />
+      <Footer />
     </div>
   );
 }
