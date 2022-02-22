@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer>
        <p id="foot">
-           Copyright &copy; {today.getFullYear()}
+           Copyright &copy; {today.getHours()}
        </p>
     </footer>
   )
