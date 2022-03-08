@@ -9,7 +9,7 @@ const Isimlistesi = ({ personlist }) => {
         <button>Delete</button>
       </td>
     </tr>
-  ))
+  ))()
 
   return (
     <React.Fragment>

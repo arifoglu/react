@@ -8,7 +8,7 @@ const Form = ({ registered }) => {
 
   const handleClick = (e) => {
     e.preventDefault();
-    alert("please enter your all informations")
+    alert("please enter your all informations");
 
     const savedPerson = {
       username: username,
@@ -55,7 +55,7 @@ const Form = ({ registered }) => {
             onChange={(e) => setPasswordagain(e.target.value)}
           />
           <button className="button" type="submit" onClick={handleClick}>
-            SAVE
+            SIGN
           </button>
         </form>
       </div>
