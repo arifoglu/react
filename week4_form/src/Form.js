@@ -42,14 +42,14 @@ const Form = ({ registered }) => {
           />
           <input
             className="inputs"
-            type="text"
+            type="password"
             placeholder="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
           <input
             className="inputs"
-            type="text"
+            type="password"
             placeholder="password again"
             value={passwordagain}
             onChange={(e) => setPasswordagain(e.target.value)}

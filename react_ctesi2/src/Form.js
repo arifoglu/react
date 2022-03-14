@@ -7,9 +7,7 @@ const[firstname,SetFirstname]=useState('')
 
 const handleClick = (e) => {
     e.preventDefault();
-    console.log("submit oldu");
-    
-    
+    console.log("submit oldu");   
 };
 
 
