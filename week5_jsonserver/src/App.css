@@ -1,0 +1,31 @@
+#forms{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;   
+}
+.App{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+#signup{
+    color:skyblue;
+    text-align: center;
+}
+
+.inputs{
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 50px;
+}
+.button{
+    padding: 1rem;
+    margin: 1rem;
+    background-color: steelblue;
+    border-radius: 50px;
+}
+
+#userlist{
+    display: flex;
+    flex-direction: column;
+}
