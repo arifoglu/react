@@ -30,6 +30,9 @@ async function getData() {
 
 }
 
+
+
+
 ///////// data degiskeninde map ile istedigimiz veriyi alabiliriz
   return (
     //console.log(data),

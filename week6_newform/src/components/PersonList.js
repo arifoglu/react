@@ -1,16 +1,16 @@
 import React from 'react'
 
-const PersonList = ({ newpeople }) => {
+const PersonList = ({ newpeople , handleDelete }) => {
   const tableau = newpeople.map((person, index) => (
     <tr key={index}>
-      <th scope="row">1</th>
+      <th scope="row">{index + 1}</th>
       <td>{person.firstname}</td>
       <td>{person.lastname}</td>
       <td>{person.email}</td>
       <td>{person.password}</td>
       <td>
         <div className="d-grid gap-2 d-md-flex justify-content-md-end">
-          <button className="btn btn-danger" type="button">
+          <button onClick={()=> handleDelete(person.firstname)} className="btn btn-danger" type="button">
             Delete
           </button>
         </div>
@@ -18,6 +18,9 @@ const PersonList = ({ newpeople }) => {
     </tr>
   ))
   
+ 
+
+
   return (
     <React.Fragment>
       <div className="col m-4 ">
